@@ -17,7 +17,7 @@ public non-sealed class Vendedor extends Funcionario{
     
     
     
-    public void quantiaVenda(int quantia){ //implementar quantidade
+    public void quantiaVenda(int quantia){ 
         this.quantidade += quantia;
         System.out.println("Quantita total vendida: " + this.quantidade + " unidades.");
     }

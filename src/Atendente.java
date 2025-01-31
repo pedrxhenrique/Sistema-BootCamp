@@ -16,7 +16,7 @@ public non-sealed class Atendente extends Funcionario {
     }
     
 
-    public void realizarVenda(double valor){ //implementar quantidade
+    public void realizarVenda(double valor){
         this.valorEmCaixa += valor;
         System.out.println("Valor total em caixa: R$" + this.valorEmCaixa);
     }
